@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: day71_python
+    name: day71_Python
     env: python
     buildCommand: pip install -r requirements.txt
     startCommand: gunicorn main:app
